@@ -1,0 +1,42 @@
+@media (max-width: 992px) {
+  header {
+    .header {
+      .header-right {
+          display: none ;
+
+        // display: block;
+        transform: translate(0, 85px);
+
+        position: absolute;
+        z-index: 99;
+        background: white;
+        width: 100%;
+
+        top: -16px;
+        left: 0;
+
+        nav {
+          // display: block;
+          ul {
+            display: block;
+            li {
+              display: block;
+            }
+          }
+        }
+      }
+    }
+    svg {
+      display: block;
+    }
+  }
+
+  #info {
+    .info-section {
+      flex-wrap: wrap;
+      gap: 100px;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}

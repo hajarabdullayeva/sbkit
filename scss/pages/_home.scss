@@ -1,0 +1,64 @@
+#info {
+  background-color: $bgColor;
+  background-image: url("https://sb-ui-kit-pro.startbootstrap.com/assets/img/backgrounds/pattern-shapes.png");
+  padding: 8rem ;
+  clip-path: polygon(0 0, 100% 0, 100% 84%, 0% 100%);
+
+  .info-section {
+    display: flex;
+
+    &__left {
+      span {
+        padding: 0.5em 1em;
+        border-radius: 50rem;
+        background-color: #e4ddf7;
+        text-transform: lowercase;
+        color: $bgColor;
+        font-size: 12px;
+      }
+
+      h2 {
+        font-size: 2.5rem;
+        color: #fff;
+        margin-bottom: 0.5rem;
+        font-weight: 500;
+        line-height: 1.2;
+      }
+
+      p {
+        color: $defaultColor;
+        font-size: 1.15rem;
+      }
+    }
+
+    &__right {
+      background-color: #fff;
+      border-radius: 10px;
+
+      h3 {
+        color: $primaryColor;
+        font-weight: 500;
+        padding: 1.5rem 1rem;
+        border-bottom: 1px solid gray;
+      }
+
+      form > div {
+        padding: 1.35rem;
+      }
+
+      .form-collapse {
+        display: flex;
+      }
+
+      input {
+        padding: 10px;
+        font-size: 0.875rem;
+        font-weight: 400;
+        line-height: 1;
+        color: #69707a;
+        background-color: #fff;
+        border: 1px solid #c5ccd6;
+      }
+    }
+  }
+}

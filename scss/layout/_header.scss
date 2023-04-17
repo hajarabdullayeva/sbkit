@@ -1,0 +1,35 @@
+header {
+  padding: 0 2.5rem;
+
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+
+    .logo {
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: black;
+    }
+
+    ul {
+      display: flex;
+      gap: 20px;
+    }
+
+    .header-right {
+      display: flex;
+      align-items: center;
+      gap: 50px;
+    }
+
+    button {
+      @include button;
+    }
+  }
+
+  svg {
+    display: none;
+  }
+}
